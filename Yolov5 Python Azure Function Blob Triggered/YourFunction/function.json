@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "azpics",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "car-views/{name}",
+      "connection": "gpstorageaccountt_STORAGE"
+    }
+  ]
+}
