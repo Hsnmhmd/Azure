@@ -16,3 +16,4 @@ The provided code does all required preprocessing for the inference
 ## References
 1. https://learn.microsoft.com/en-us/azure/machine-learning/how-to-inference-onnx-automl-image-models?tabs=multi-class
 2. https://github.com/ultralytics/yolov5
+3. https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-trigger?tabs=in-process&pivots=programming-language-python
