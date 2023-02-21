@@ -6,9 +6,13 @@ the desired opjects and the function crops detected objects and saves them to an
 The provided code does all required preprocessing for the inference
 
 ## Requirements and Usage
-1- Exporting your best .pt yolov5 model to onnx format with batch size =1
-2- python 3.9.12 runtime
-3- provided requirement.txt
-4- provide the path of the images and the connection string of the storage account in the function.json file
-5- provide the required connection strings in the local.settings.json
-6- modify the __init__.py file with your connection string, your class list and your model
+1. Exporting your best .pt yolov5 model to onnx format with batch size =1
+2. python 3.9.12 runtime
+3. provided requirement.txt
+4. provide the path of the images and the connection string of the storage account in the function.json file
+5. provide the required connection strings in the local.settings.json
+6. modify the __init__.py file with your connection string, your class list and your model
+
+## References
+1. https://learn.microsoft.com/en-us/azure/machine-learning/how-to-inference-onnx-automl-image-models?tabs=multi-class
+2. https://github.com/ultralytics/yolov5
